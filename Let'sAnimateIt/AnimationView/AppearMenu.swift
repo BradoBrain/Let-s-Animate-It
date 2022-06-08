@@ -21,39 +21,34 @@ struct AppearMenu: View {
                 .foregroundColor(.mint)
                 .font(.largeTitle)
                 .offset(x: -100, y: 0)
-                .rotationEffect(Angle(degrees: onTap ? Double(place1) : 240))
-                .animation(.interactiveSpring(response: 2, dampingFraction: 0.7, blendDuration: 1), value: onTap)
-                .opacity((0 <= place4 && place4 < 180 ) ? 1 : 0)
+                .rotationEffect(Angle(degrees: onTap ? Double(place1) : 100))
+                .animation(.interactiveSpring(response: 1, dampingFraction: 0.7, blendDuration: 1), value: onTap)
+                .opacity((place4 <= 90) ? 1 : 0)
             
             Image(systemName: "message.circle")
                 .foregroundColor(.indigo)
                 .font(.largeTitle)
                 .offset(x: -100, y: 0)
-                .rotationEffect(Angle(degrees: onTap ? Double(place2) : 270))
-                .animation(.interactiveSpring(response: 2, dampingFraction: 0.7, blendDuration: 1), value: onTap)
+                .rotationEffect(Angle(degrees: onTap ? Double(place2) : 100))
+                .animation(.interactiveSpring(response: 1, dampingFraction: 0.7, blendDuration: 1), value: onTap)
                 .opacity((0 <= place4 && place4 < 180 ) ? 1 : 0)
                 
             Image(systemName: "envelope.circle")
                 .foregroundColor(.purple)
                 .font(.largeTitle)
                 .offset(x: -100, y: 0)
-                .rotationEffect(Angle(degrees: onTap ? Double(place3) : 300))
-                .animation(.interactiveSpring(response: 2, dampingFraction: 0.7, blendDuration: 1), value: onTap)
+                .rotationEffect(Angle(degrees: onTap ? Double(place3) : 100))
+                .animation(.interactiveSpring(response: 1, dampingFraction: 0.7, blendDuration: 1), value: onTap)
                 .opacity((0 <= place4 && place4 < 180 ) ? 1 : 0)
             
             Image(systemName: "waveform.circle")
                 .foregroundColor(.purple)
                 .font(.largeTitle)
                 .offset(x: -100, y: 0)
-                .rotationEffect(Angle(degrees: onTap ? Double(place4) : 330))
-                .animation(.interactiveSpring(response: 2, dampingFraction: 0.7, blendDuration: 1), value: onTap)
+                .rotationEffect(Angle(degrees: onTap ? Double(place4) : 100))
+                .animation(.interactiveSpring(response: 1, dampingFraction: 0.7, blendDuration: 1), value: onTap)
                 .opacity((0 <= place4 && place4 < 180 ) ? 1 : 0)
-            
-            
-            
-            
-            
-            
+
             
             Button(action: { self.onTap.toggle()
                 if onTap == true {
