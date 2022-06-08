@@ -49,7 +49,7 @@ struct AppearMenu: View {
                 .animation(.interactiveSpring(response: 1, dampingFraction: 0.7, blendDuration: 1), value: onTap)
                 .opacity((0 <= place4 && place4 < 180 ) ? 1 : 0)
 
-            
+            // Button to show submenu items
             Button(action: { self.onTap.toggle()
                 if onTap == true {
                     place1 = 0
