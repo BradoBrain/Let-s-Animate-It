@@ -1,4 +1,4 @@
-# Let-sAnimateIt
+# Let's Animate It
 
 Repositories for my animated scetches
 
