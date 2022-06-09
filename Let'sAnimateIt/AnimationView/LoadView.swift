@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct SquareCircleLoadView: View {
+struct LoadView: View {
     @State var trigger = false
     @State var changeOffset: CGFloat = 20
     
@@ -55,6 +55,6 @@ struct SquareCircleLoadView: View {
 
 struct SquareCircleLoadView_Previews: PreviewProvider {
     static var previews: some View {
-        SquareCircleLoadView()
+        LoadView()
     }
 }
