@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F5AA7792851D97F00404CE6 /* SquareCircleLoadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5AA7782851D97F00404CE6 /* SquareCircleLoadView.swift */; };
 		0F8DA3A2284E1AC200AF66ED /* Let_sAnimateItApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8DA3A1284E1AC200AF66ED /* Let_sAnimateItApp.swift */; };
 		0F8DA3A4284E1AC200AF66ED /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8DA3A3284E1AC200AF66ED /* ContentView.swift */; };
 		0F8DA3A6284E1AC400AF66ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F8DA3A5284E1AC400AF66ED /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F5AA7782851D97F00404CE6 /* SquareCircleLoadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SquareCircleLoadView.swift; sourceTree = "<group>"; };
 		0F8DA39E284E1AC200AF66ED /* Let'sAnimateIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Let'sAnimateIt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0F8DA3A1284E1AC200AF66ED /* Let_sAnimateItApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Let_sAnimateItApp.swift; sourceTree = "<group>"; };
 		0F8DA3A3284E1AC200AF66ED /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -41,6 +43,7 @@
 			children = (
 				0FC972D3284E9B2700ADD06C /* DoorView.swift */,
 				0F8DA3AF284E1B7500AF66ED /* AppearMenu.swift */,
+				0F5AA7782851D97F00404CE6 /* SquareCircleLoadView.swift */,
 			);
 			path = AnimationView;
 			sourceTree = "<group>";
@@ -153,6 +156,7 @@
 			files = (
 				0FC972D4284E9B2700ADD06C /* DoorView.swift in Sources */,
 				0F8DA3A4284E1AC200AF66ED /* ContentView.swift in Sources */,
+				0F5AA7792851D97F00404CE6 /* SquareCircleLoadView.swift in Sources */,
 				0F8DA3A2284E1AC200AF66ED /* Let_sAnimateItApp.swift in Sources */,
 				0F8DA3B0284E1B7500AF66ED /* AppearMenu.swift in Sources */,
 			);
