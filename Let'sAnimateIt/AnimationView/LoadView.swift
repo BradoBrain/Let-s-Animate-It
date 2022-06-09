@@ -43,6 +43,7 @@ struct LoadView: View {
             }
             .opacity(trigger ? 0.7 : 0.9)
             .rotationEffect(Angle(degrees: Double(trigger ? 360 : 0)))
+            // magic is here
             .animation(trigger ? .interactiveSpring(response: 0.7, dampingFraction: 1, blendDuration: 10).repeatForever() : .easeOut(duration: 0.5), value: trigger)
             
             Spacer()
