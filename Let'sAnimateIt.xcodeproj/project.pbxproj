@@ -14,7 +14,6 @@
 		0F8DA3A6284E1AC400AF66ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F8DA3A5284E1AC400AF66ED /* Assets.xcassets */; };
 		0F8DA3A9284E1AC400AF66ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F8DA3A8284E1AC400AF66ED /* Preview Assets.xcassets */; };
 		0F8DA3B0284E1B7500AF66ED /* AppearMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8DA3AF284E1B7500AF66ED /* AppearMenu.swift */; };
-		0FBAC0F928524DA900178FB4 /* PopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FBAC0F828524DA900178FB4 /* PopUpView.swift */; };
 		0FC972D4284E9B2700ADD06C /* DoorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC972D3284E9B2700ADD06C /* DoorView.swift */; };
 /* End PBXBuildFile section */
 
@@ -27,7 +26,6 @@
 		0F8DA3A5284E1AC400AF66ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F8DA3A8284E1AC400AF66ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0F8DA3AF284E1B7500AF66ED /* AppearMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearMenu.swift; sourceTree = "<group>"; };
-		0FBAC0F828524DA900178FB4 /* PopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopUpView.swift; sourceTree = "<group>"; };
 		0FC972D3284E9B2700ADD06C /* DoorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,7 +46,6 @@
 				0FC972D3284E9B2700ADD06C /* DoorView.swift */,
 				0F8DA3AF284E1B7500AF66ED /* AppearMenu.swift */,
 				0F5AA7782851D97F00404CE6 /* LoadView.swift */,
-				0FBAC0F828524DA900178FB4 /* PopUpView.swift */,
 				0F897AC028537F2800F0EFAB /* LampView.swift */,
 			);
 			path = AnimationView;
@@ -164,7 +161,6 @@
 				0F8DA3A4284E1AC200AF66ED /* ContentView.swift in Sources */,
 				0F897AC128537F2900F0EFAB /* LampView.swift in Sources */,
 				0F5AA7792851D97F00404CE6 /* LoadView.swift in Sources */,
-				0FBAC0F928524DA900178FB4 /* PopUpView.swift in Sources */,
 				0F8DA3A2284E1AC200AF66ED /* Let_sAnimateItApp.swift in Sources */,
 				0F8DA3B0284E1B7500AF66ED /* AppearMenu.swift in Sources */,
 			);
