@@ -49,10 +49,10 @@
 			children = (
 				0FC972D3284E9B2700ADD06C /* DoorView.swift */,
 				0FC3C3A3285476210042595F /* RocketView.swift */,
-				0F1C55CA2854D65900D48CFB /* LocationUtility.swift */,
 				0F8DA3AF284E1B7500AF66ED /* AppearMenu.swift */,
 				0F5AA7782851D97F00404CE6 /* LoadView.swift */,
 				0F897AC028537F2800F0EFAB /* LampView.swift */,
+				0F1C55CA2854D65900D48CFB /* LocationUtility.swift */,
 			);
 			path = AnimationView;
 			sourceTree = "<group>";
