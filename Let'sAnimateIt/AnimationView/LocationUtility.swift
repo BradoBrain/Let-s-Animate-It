@@ -33,7 +33,7 @@ struct LocationUtility: View {
             
             
             Spacer()
-        } // helper to draw
+        }
     }
 }
 
