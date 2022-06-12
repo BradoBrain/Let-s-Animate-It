@@ -10,7 +10,7 @@ import SwiftUI
 struct DoorView: View {
     @State var onTap = false
     @State var insertX = 0.0
-    @State var color: Color = .gray
+    @State var textBool = false
     @State var showText: Double = 0
     
     var body: some View {
@@ -19,14 +19,7 @@ struct DoorView: View {
                 // View backgtound
                 Color.black.ignoresSafeArea()
                 
-                // Appear text
-                VStack {
-                    Text("Good Night")
-                        .foregroundColor(.white)
-                        .font(.largeTitle)
-                        .opacity(showText)
-                    Spacer()
-                }
+
                 
                 // Gray background for door
                 Path { path in
@@ -37,9 +30,10 @@ struct DoorView: View {
                     path.closeSubpath()
                 }.foregroundColor(.gray)
                 
+              
                 VStack {
-                    
                     Door(insetX: insertX)
+                    
                     
                     // Light under the door
                     Path { path in
@@ -50,19 +44,27 @@ struct DoorView: View {
                         path.closeSubpath()
                     } .blur(radius: 3)
                         .foregroundStyle(.linearGradient(colors: [.black, .gray], startPoint: .bottomLeading, endPoint: .trailing))
-                        .colorMultiply(color)
+                        .colorMultiply(onTap ? .black : .white)
+                        
+                } .animation(.easeInOut, value: onTap)
+                
+                // Appear text
+                VStack {
+                    Text("Good Night")
+                        .foregroundColor(.white)
+                        .font(.largeTitle)
+                        .opacity(onTap ? 1.0 : 0.0)
+                        .animation(.easeInOut.delay(2), value: textBool)
+                    Spacer()
                 }
             }
             
             .onTapGesture {
-                withAnimation(.linear(duration: 0.5)) {
                     
                     self.onTap.toggle()
                     insertX = onTap ? 50 : 0
-                    color = onTap ? .black : .white
+                   textBool = true
                     
-                    showText = onTap ? 1 : 0
-                }
             }
         }
     }

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0F1C55CB2854D65900D48CFB /* LocationUtility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F1C55CA2854D65900D48CFB /* LocationUtility.swift */; };
 		0F5AA7792851D97F00404CE6 /* LoadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F5AA7782851D97F00404CE6 /* LoadView.swift */; };
 		0F897AC128537F2900F0EFAB /* LampView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F897AC028537F2800F0EFAB /* LampView.swift */; };
 		0F8DA3A2284E1AC200AF66ED /* Let_sAnimateItApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8DA3A1284E1AC200AF66ED /* Let_sAnimateItApp.swift */; };
@@ -14,10 +15,12 @@
 		0F8DA3A6284E1AC400AF66ED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F8DA3A5284E1AC400AF66ED /* Assets.xcassets */; };
 		0F8DA3A9284E1AC400AF66ED /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0F8DA3A8284E1AC400AF66ED /* Preview Assets.xcassets */; };
 		0F8DA3B0284E1B7500AF66ED /* AppearMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0F8DA3AF284E1B7500AF66ED /* AppearMenu.swift */; };
+		0FC3C3A4285476210042595F /* RocketView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC3C3A3285476210042595F /* RocketView.swift */; };
 		0FC972D4284E9B2700ADD06C /* DoorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0FC972D3284E9B2700ADD06C /* DoorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0F1C55CA2854D65900D48CFB /* LocationUtility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationUtility.swift; sourceTree = "<group>"; };
 		0F5AA7782851D97F00404CE6 /* LoadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadView.swift; sourceTree = "<group>"; };
 		0F897AC028537F2800F0EFAB /* LampView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LampView.swift; sourceTree = "<group>"; };
 		0F8DA39E284E1AC200AF66ED /* Let'sAnimateIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Let'sAnimateIt.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -26,6 +29,7 @@
 		0F8DA3A5284E1AC400AF66ED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0F8DA3A8284E1AC400AF66ED /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		0F8DA3AF284E1B7500AF66ED /* AppearMenu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppearMenu.swift; sourceTree = "<group>"; };
+		0FC3C3A3285476210042595F /* RocketView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RocketView.swift; sourceTree = "<group>"; };
 		0FC972D3284E9B2700ADD06C /* DoorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -44,6 +48,8 @@
 			isa = PBXGroup;
 			children = (
 				0FC972D3284E9B2700ADD06C /* DoorView.swift */,
+				0FC3C3A3285476210042595F /* RocketView.swift */,
+				0F1C55CA2854D65900D48CFB /* LocationUtility.swift */,
 				0F8DA3AF284E1B7500AF66ED /* AppearMenu.swift */,
 				0F5AA7782851D97F00404CE6 /* LoadView.swift */,
 				0F897AC028537F2800F0EFAB /* LampView.swift */,
@@ -162,7 +168,9 @@
 				0F897AC128537F2900F0EFAB /* LampView.swift in Sources */,
 				0F5AA7792851D97F00404CE6 /* LoadView.swift in Sources */,
 				0F8DA3A2284E1AC200AF66ED /* Let_sAnimateItApp.swift in Sources */,
+				0F1C55CB2854D65900D48CFB /* LocationUtility.swift in Sources */,
 				0F8DA3B0284E1B7500AF66ED /* AppearMenu.swift in Sources */,
+				0FC3C3A4285476210042595F /* RocketView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
